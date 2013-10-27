@@ -34,7 +34,7 @@ case $com in
 		chk_repo
 		pkg=( `find . -type d ! -path './.git/*' -name "*$pat*"` )
 		if [[ -z $pkg ]];then
-			echo "$2 didin't match."
+			echo "$pat didin't match."
 			exit 2
 		fi
 		for p in "${pkg[@]}";do
