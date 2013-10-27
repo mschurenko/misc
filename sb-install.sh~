@@ -32,7 +32,7 @@ pat=$2
 case $com in
 	search)
 		chk_repo
-		pkg=(`find . -type d -name "*$2*"` )
+		pkg=( `find . -type d -name "*$2*"` )
 		if [[ -z $pkg ]];then
 			echo "$2 didin't match."
 			exit 2
