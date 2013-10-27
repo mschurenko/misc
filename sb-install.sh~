@@ -1,6 +1,8 @@
 #!/bin/bash
 
-# search, install, update, redo slackbuilds pkgs
+#set -x
+
+# search, install, update, redo
 
 origin='git://slackbuilds.org/slackbuilds.git'
 repo='/home/matt/slackbuilds'
