@@ -3,7 +3,7 @@
 # search, install, update, redo slackbuilds pkgs
 
 origin='git://slackbuilds.org/slackbuilds.git'
-repo='/home/matt/slackbuilds'
+repo="$HOME/slackbuilds"
 usage="\nusage: $0 [search|install|info|update|redo]\n"
 
 chk_repo() {

@@ -1,11 +1,9 @@
 #!/bin/bash
 
-#set -x
-
-# search, install, update, redo
+# search, install, update, redo slackbuilds pkgs
 
 origin='git://slackbuilds.org/slackbuilds.git'
-repo='/home/matt/slackbuilds'
+repo="~/slackbuilds"
 usage="\nusage: $0 [search|install|info|update|redo]\n"
 
 chk_repo() {
