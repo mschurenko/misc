@@ -1,0 +1,13 @@
+syntax on
+set bg=dark
+set mouse-=a
+set paste
+
+set ts=2 sw=2 expandtab
+set listchars=tab:>.,trail:.,extends:#,nbsp:.
+
+autocmd BufNewFile,BufRead *.json set ft=javascript
+
+set backupdir=/tmp/vim_backup
+
+execute pathogen#infect()
