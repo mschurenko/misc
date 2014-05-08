@@ -9,7 +9,7 @@ import sys
 import subprocess
 import getpass
 
-url = 'http://ie-monitor/zabbix/api_jsonrpc.php'
+url = 'http://monitor/zabbix/api_jsonrpc.php'
 header = { 'content-type' : 'application/json' }
 group_id = '11'
 template_id = '10077'
