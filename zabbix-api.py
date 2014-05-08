@@ -11,8 +11,8 @@ header = { 'content-type' : 'application/json' }
 #hn = subprocess.Popen('hostname',stdout=subprocess.PIPE).stdout.read().split('.')[0]
 group_id = '11'
 template_id = '10077'
-hn = 'rd06001'
-domain = '.ie.dom'
+hn = ''
+domain = ''
 ip = '10.65.7.1'
 port = '10050'
 
