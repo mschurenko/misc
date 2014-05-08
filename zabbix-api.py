@@ -6,7 +6,7 @@ import sys
 import subprocess
 import getpass
 
-url = 'http://ie-monitor/zabbix/api_jsonrpc.php'
+url = 'http://monitor/zabbix/api_jsonrpc.php'
 header = { 'content-type' : 'application/json' }
 #hn = subprocess.Popen('hostname',stdout=subprocess.PIPE).stdout.read().split('.')[0]
 group_id = '11'
